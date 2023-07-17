@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  display: flex;
+}
+
+
+.carosel {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.slide-bar {
+    width: 100%;
+  max-width: 200px;
+}
+
+.card {
+    width: 100%;
+    max-width: 200px;
+    height: 60px;
+    display: flex;
+}
+
+.img-carosel {
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.position-rel {
+    position: relative;
+}
+
+.position-ab {
+    position: absolute;
+}
+
+.chevron {
+text-align: center;
+padding-left: 85px;
+padding-top: 15px;
+font-size: 2rem;
+}
+
+
